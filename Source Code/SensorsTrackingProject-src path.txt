@@ -1,0 +1,1 @@
+\SensorsTrackingProject\SensorsTracking\app\src\main\java\com\labdesignpattern\sensorstracking
