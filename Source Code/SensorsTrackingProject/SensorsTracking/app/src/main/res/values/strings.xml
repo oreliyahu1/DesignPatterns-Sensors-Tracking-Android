@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sensors Tracking</string>
+    <string name="action_about">About</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="main_log">Log:</string>
+    <string name="main_light">Light:</string>
+    <string name="main_proximity">Proximity:</string>
+    <string name="main_pressure">Pressure:</string>
+    <string name="main_position">Position:</string>
+    <string name="main_position_lat">Latitude</string>
+    <string name="main_position_long">Longitude</string>
+    <string name="main_compass">Compass:</string>
+
+    <string name="main_light_data">Loading data</string>
+    <string name="main_proximity_data">Loading data</string>
+    <string name="main_pressure_data">Loading data</string>
+    <string name="main_position_data">Loading data</string>
+    <string name="main_position_lat_data">Loading data</string>
+    <string name="main_position_long_data">Loading data</string>
+    <string name="main_compass_data">Loading data</string>
+
+    <string name="main_loading_data">Loading data</string>
+    <string name="main_gps_off">GPS off</string>
+    <string name="main_sensor_exception">Exception</string>
+
+    <string name="main_status">Status:</string>
+    <string name="main_status_inprocess">in process</string>
+    <string name="main_status_outprocess">out of process</string>
+
+    <string name="about_submitters">"Mini project for lab in design pattern\n\n
+
+    Submitters:\n
+    Haim Yannai\n
+    Shahar Klain\n
+    Or Eliyahu"</string>
+
+    <string name="service_still_running">Application is still running</string>
+    <string name="service_run_as_service">Application run as service</string>
+    <string name="service_stop_service">Application service were stopped</string>
+</resources>

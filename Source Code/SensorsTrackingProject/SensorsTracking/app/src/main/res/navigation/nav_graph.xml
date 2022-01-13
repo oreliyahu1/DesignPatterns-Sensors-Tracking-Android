@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/DetailsFragment">
+
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.labdesignpattern.sensorstracking.fragments.DetailsFragment"
+        tools:layout="@layout/fragment_details">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/AboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.labdesignpattern.sensorstracking.fragments.AboutFragment"
+        tools:layout="@layout/fragment_about">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/DetailsFragment" />
+    </fragment>
+</navigation>
